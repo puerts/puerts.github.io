@@ -21,11 +21,9 @@ const sxExecAsync = async function(command) {
 ;(async function() {
     sx.mkdir('-p', 'temp');
     sx.cd('temp');
-    await sxExecAsync('git clone -b master https://github.com/tencent/puerts.git');
-    sx.mv('../public/pic', '../public/doc/');
+    await sxExecAsync('git clone --depth=1 --single-branch -b master https://github.com/tencent/puerts.git');
     sx.mv('../public/doc', '../public/doc-back')
     sx.cp('-r', 'puerts/doc', '../public/')
-    sx.mv('../public/doc/pic', '../public/')
     sx.cd('..')
     sx.rm('-rf', 'temp');
     sx.rm('-rf', 'public/doc-back');
