@@ -1,6 +1,8 @@
 name: publish-github.io
 
 on: 
+  schedule:
+    - cron:  '30 10,14,20 * * *'
   workflow_dispatch:
   push:
 
