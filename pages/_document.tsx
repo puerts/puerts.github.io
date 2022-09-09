@@ -7,7 +7,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {/* <title>PuerTS Document</title> */}
+          <title>PuerTS Document (普洱TS！Write your game with TypeScript in UE or Unity. PuerTS can be pronounced as pu-erh TS)</title>
         </Head> 
         <body style={{ margin: 0 }}>
           <Main />

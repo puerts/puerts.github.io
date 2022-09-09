@@ -22,6 +22,8 @@ export default function Layout(props: LayoutProps) {
         'en': 'I found a problem in this page!'
     }[props.lang] || ''
 
+    props.markdown = props.markdown.replace(/(\[.*\]\(.*)\.md\)/g, '$1)');
+
     return (
         <div className="App">
             <Header engine={props.engine} lang={props.lang} />

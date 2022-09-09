@@ -17,6 +17,12 @@
     - en: Template-based static binding
       zhcn: 基于模板的静态绑定
       md: 'template_binding'
+    - en: Extending ufunction
+      zhcn: 扩展函数
+      md: 'extension_methods'
+    - en: Extending uclass
+      zhcn: 继承引擎类
+      md: 'uclass_extends'
     - en: Mixin
       zhcn: 蓝图Mixin
       md: 'mixin'

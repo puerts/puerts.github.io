@@ -19,7 +19,7 @@ export async function getStaticProps({ params }) {
 
   let markdown = '';
   try {
-    markdown = readFileSync(join(process.cwd(), 'public', `/doc/unity/${params.lang}/${params.doc}.md`), 'utf-8');
+    markdown = readFileSync(join(process.cwd(), 'public', `/doc/unreal/${params.lang}/${params.doc}.md`), 'utf-8');
   } catch (e) { }
 
   return { props: { markdown, ...params } }
