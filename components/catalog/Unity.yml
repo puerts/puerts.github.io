@@ -39,6 +39,9 @@
   - en: Extension
     zhcn: C# 扩展函数
     md: wrapper/extension
+  - en: All Generate Config
+    zhcn: 所有生成配置一览
+    md: wrapper/all_attribute
 
 - en: Advanced Guide
   zhcn: 进阶指引
