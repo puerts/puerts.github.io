@@ -105,7 +105,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/puerts-zhcn/tutorial/runJS',
+                to: '/docs/unity/install',
               },
             ],
           },

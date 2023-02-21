@@ -12,7 +12,7 @@
     
     - UE4.24及以下版本：[V8 for ue 4.24 or below](https://github.com/puerts/backend-v8/releases/tag/v8_for_ue424_or_below)
     
-* 解压到[YouProject/Plugins/Puerts/ThirdParty](unreal/Puerts/ThirdParty)
+* 解压到`YouProject/Plugins/Puerts/ThirdParty`
 
 ### 发布包安装方式
 
@@ -47,6 +47,6 @@ quickjs后端[下载](https://github.com/puerts/backend-quickjs/releases/tag/QJS
 
 nodejs后端[下载](https://github.com/puerts/backend-nodejs/releases/tag/NodeJS_0329)
 
-解压到[YouProject/Plugins/Puerts/ThirdParty](unreal/Puerts/ThirdParty)
+解压到`YouProject/Plugins/Puerts/ThirdParty`
 
-修改[JsEnv.Build.cs](../../unreal/Puerts/Source/JsEnv/JsEnv.Build.cs)，UseQuickjs为true表示用quickjs后端，UseNodejs表示用nodejs后端。
+修改[JsEnv.Build.cs](https://github.com/Tencent/puerts/tree/master/unreal/Puerts/Source/JsEnv/JsEnv.Build.cs)，UseQuickjs为true表示用quickjs后端，UseNodejs表示用nodejs后端。
