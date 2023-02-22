@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'PuerTS',
+  title: 'PuerTS（普洱TS）',
   tagline: 'Write Typescript in Unreal/Unity',
   favicon: 'img/favicon.ico',
 
@@ -20,7 +20,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Tencent', // Usually your GitHub org/user name.
   projectName: 'puerts', // Usually your repo name.
-
+ 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -42,8 +42,14 @@ const config = {
           path: "doc",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Tencent/puerts/tree/master/doc/unity/zhcn',
+          editUrl: function ({ locale, docPath }) {
+            // 适配puerts仓库
+            if (locale == 'zh-Hans') locale = 'zhcn';
+            var docPathArr = docPath.split('/');
+            docPathArr[0] = docPathArr[1]
+            docPathArr[1] = locale
+            return `https://github.com/Tencent/puerts/edit/master/doc/${docPathArr.join('/')}`;
+          }
         },
         // blog: {
         //   showReadingTime: true,
@@ -73,13 +79,13 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'unity/install',
+            docId: 'puerts/unity/install',
             position: 'left',
             label: 'Unity',
           },
           {
             type: 'doc',
-            docId: 'unreal/install',
+            docId: 'puerts/unreal/install',
             position: 'left',
             label: 'Unreal',
           },
@@ -90,6 +96,10 @@ const config = {
           //   label: 'Docusaurus',
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
           {
             href: 'https://github.com/Tencent/puerts',
             label: 'GitHub',
@@ -105,7 +115,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/unity/install',
+                to: '/docs/puerts/unity/install',
               },
             ],
           },
@@ -140,7 +150,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Puerts. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PuerTS. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

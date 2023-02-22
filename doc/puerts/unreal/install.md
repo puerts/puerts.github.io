@@ -1,5 +1,3 @@
-# 安装PuerTS
-
 ### 源码安装方式
 
 * git clone https://github.com/Tencent/puerts.git
@@ -49,4 +47,4 @@ nodejs后端[下载](https://github.com/puerts/backend-nodejs/releases/tag/NodeJ
 
 解压到`YouProject/Plugins/Puerts/ThirdParty`
 
-修改[JsEnv.Build.cs](https://github.com/Tencent/puerts/tree/master/unreal/Puerts/Source/JsEnv/JsEnv.Build.cs)，UseQuickjs为true表示用quickjs后端，UseNodejs表示用nodejs后端。
+修改[JsEnv.Build.cs](https://github.com/Tencent/puerts/blob/master/unreal/Puerts/Source/JsEnv/JsEnv.Build.cs)，UseQuickjs为true表示用quickjs后端，UseNodejs表示用nodejs后端。

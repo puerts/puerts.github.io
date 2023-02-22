@@ -17,13 +17,13 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/unity/install">
+            to="/docs/puerts/unity/install">
             Doc for Unity
           </Link>
           <div>_______</div>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/unreal/install">
+            to="/docs/puerts/unreal/install">
             Doc for Unreal
           </Link>
         </div>

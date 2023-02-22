@@ -10,32 +10,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'strong ecosystem',
+    title: '强大的生态',
     Svg: null,
     // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Facililates game building processes by combining JavaScript ecosystem with the rendering power of professional game engines. Node.js is also supported
+        引入Node.js以及JavaScript生态众多的库和工具链，结合专业商业引擎的渲染能力，快速打造游戏。
       </>
     ),
   },
   {
-    title: 'script with static type check',
+    title: '拥有静态检查的脚本',
     Svg: null,
     // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        In contrast to lua script, TypeScript supports static type checking, which significantly improves code robustness and maintainability.
+        相比游戏领域常用的lua脚本，TypeScript的静态类型检查有助于编写更健壮，可维护性更好的程序
       </>
     ),
   },
   {
-    title: 'High efficiency/performance',
+    title: '高效/高性能',
     Svg: null,
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Supports reflection binding - no extra steps (code generation) needed for development. supports static binding - takes care of complex scenes.
+        支持反射Binding，无需额外（生成代码）步骤即可开发。也支持静态Binding，兼顾了高性能的场景。
       </>
     ),
   },
