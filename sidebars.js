@@ -40,11 +40,13 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '更多',
+      label: 'Il2cpp绑定(new)',
       items: [
-        { label: '来自社区的 PuerTS 扩展', type: 'doc', id: 'puerts/unity/other/community' }
+        { label: '介绍与安装方法', type: 'doc', id: 'puerts/unity/il2cpp/readme' },
+        { label: '性能表现', type: 'doc', id: 'puerts/unity/il2cpp/performance' },
       ]
     },
+    { label: '来自社区的 PuerTS 扩展', type: 'doc', id: 'puerts/unity/other/community' },
     {
       type: "link",
       href: "https://github.com/chexiongsheng/puerts_unity_demo.git",
