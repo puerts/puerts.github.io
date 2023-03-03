@@ -1,0 +1,138 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.unity.category.入门教程": {
+    "message": "Tutorial",
+    "description": "The label for category 入门教程 in sidebar unity"
+  },
+  "sidebar.unity.category.代码生成": {
+    "message": "Code Generation",
+    "description": "The label for category 代码生成 in sidebar unity"
+  },
+  "sidebar.unity.category.进阶指引": {
+    "message": "Advanced",
+    "description": "The label for category 进阶指引 in sidebar unity"
+  },
+  "sidebar.unity.category.Il2cpp绑定(new)": {
+    "message": "Il2cpp Binding(new)",
+    "description": "The label for category Il2cpp绑定(new) in sidebar unity"
+  },
+  "sidebar.unity.link.官方Demo": {
+    "message": "Official Demo",
+    "description": "The label for link 官方Demo in sidebar unity, linking to https://github.com/chexiongsheng/puerts_unity_demo.git"
+  },
+  "sidebar.unity.doc.安装 PuerTS": {
+    "message": "install PuerTS",
+    "description": "The label for the doc item 安装 PuerTS in sidebar unity, linking to the doc puerts/unity/install"
+  },
+  "sidebar.unity.doc.Hello World": {
+    "message": "Hello World",
+    "description": "The label for the doc item Hello World in sidebar unity, linking to the doc puerts/unity/tutorial/runJS"
+  },
+  "sidebar.unity.doc.JS 调用 C#指南": {
+    "message": "invoking C# in JS",
+    "description": "The label for the doc item JS 调用 C#指南 in sidebar unity, linking to the doc puerts/unity/tutorial/js2cs"
+  },
+  "sidebar.unity.doc.C# 调用 JS指南": {
+    "message": "invoking JS in C#",
+    "description": "The label for the doc item C# 调用 JS指南 in sidebar unity, linking to the doc puerts/unity/tutorial/cs2js"
+  },
+  "sidebar.unity.doc.模块加载": {
+    "message": "Module",
+    "description": "The label for the doc item 模块加载 in sidebar unity, linking to the doc puerts/unity/tutorial/module"
+  },
+  "sidebar.unity.doc.使用Typescript": {
+    "message": "Typescript",
+    "description": "The label for the doc item 使用Typescript in sidebar unity, linking to the doc puerts/unity/tutorial/typescript"
+  },
+  "sidebar.unity.doc.Wrapper 生成": {
+    "message": "Wrapper Generation",
+    "description": "The label for the doc item Wrapper 生成 in sidebar unity, linking to the doc puerts/unity/wrapper/wrapper"
+  },
+  "sidebar.unity.doc.生成过滤器": {
+    "message": "filter for generating",
+    "description": "The label for the doc item 生成过滤器 in sidebar unity, linking to the doc puerts/unity/wrapper/filter"
+  },
+  "sidebar.unity.doc.BlittableCopy GC 优化": {
+    "message": "BlittableCopy GC optimize",
+    "description": "The label for the doc item BlittableCopy GC 优化 in sidebar unity, linking to the doc puerts/unity/wrapper/blittablecopy"
+  },
+  "sidebar.unity.doc.C# 扩展函数": {
+    "message": "C# extension method",
+    "description": "The label for the doc item C# 扩展函数 in sidebar unity, linking to the doc puerts/unity/wrapper/extension"
+  },
+  "sidebar.unity.doc.所有生成配置一览": {
+    "message": "all ",
+    "description": "The label for the doc item 所有生成配置一览 in sidebar unity, linking to the doc puerts/unity/wrapper/all_attribute"
+  },
+  "sidebar.unity.doc.FAQ": {
+    "message": "FAQ",
+    "description": "The label for the doc item FAQ in sidebar unity, linking to the doc puerts/unity/faq"
+  },
+  "sidebar.unity.doc.JS 调试": {
+    "message": "JS Debugger",
+    "description": "The label for the doc item JS 调试 in sidebar unity, linking to the doc puerts/unity/other/debugging"
+  },
+  "sidebar.unity.doc.其他 JS 后端": {
+    "message": "Other JS Backend",
+    "description": "The label for the doc item 其他 JS 后端 in sidebar unity, linking to the doc puerts/unity/other/backend"
+  },
+  "sidebar.unity.doc.自行构建": {
+    "message": "Building Native Plugin",
+    "description": "The label for the doc item 自行构建 in sidebar unity, linking to the doc puerts/unity/other/building"
+  },
+  "sidebar.unity.doc.介绍与安装方法": {
+    "message": "Introduction",
+    "description": "The label for the doc item 介绍与安装方法 in sidebar unity, linking to the doc puerts/unity/il2cpp/readme"
+  },
+  "sidebar.unity.doc.性能表现": {
+    "message": "Performance",
+    "description": "The label for the doc item 性能表现 in sidebar unity, linking to the doc puerts/unity/il2cpp/performance"
+  },
+  "sidebar.unity.doc.来自社区的 PuerTS 扩展": {
+    "message": "Community",
+    "description": "The label for the doc item 来自社区的 PuerTS 扩展 in sidebar unity, linking to the doc puerts/unity/other/community"
+  },
+  "sidebar.unreal.link.官方Demo": {
+    "message": "官方Demo",
+    "description": "The label for link 官方Demo in sidebar unreal, linking to https://github.com/chexiongsheng/puerts_unreal_demo.git"
+  },
+  "sidebar.unreal.doc.安装 PuerTS": {
+    "message": "安装 PuerTS",
+    "description": "The label for the doc item 安装 PuerTS in sidebar unreal, linking to the doc puerts/unreal/install"
+  },
+  "sidebar.unreal.doc.使用手册": {
+    "message": "使用手册",
+    "description": "The label for the doc item 使用手册 in sidebar unreal, linking to the doc puerts/unreal/manual"
+  },
+  "sidebar.unreal.doc.调试指南": {
+    "message": "调试指南",
+    "description": "The label for the doc item 调试指南 in sidebar unreal, linking to the doc puerts/unreal/vscode_debug"
+  },
+  "sidebar.unreal.doc.TS和引擎的相互调用": {
+    "message": "TS和引擎的相互调用",
+    "description": "The label for the doc item TS和引擎的相互调用 in sidebar unreal, linking to the doc puerts/unreal/interact_with_uclass"
+  },
+  "sidebar.unreal.doc.基于模板的静态绑定": {
+    "message": "基于模板的静态绑定",
+    "description": "The label for the doc item 基于模板的静态绑定 in sidebar unreal, linking to the doc puerts/unreal/template_binding"
+  },
+  "sidebar.unreal.doc.扩展函数": {
+    "message": "扩展函数",
+    "description": "The label for the doc item 扩展函数 in sidebar unreal, linking to the doc puerts/unreal/extension_methods"
+  },
+  "sidebar.unreal.doc.继承引擎类": {
+    "message": "继承引擎类",
+    "description": "The label for the doc item 继承引擎类 in sidebar unreal, linking to the doc puerts/unreal/uclass_extends"
+  },
+  "sidebar.unreal.doc.蓝图Mixin": {
+    "message": "蓝图Mixin",
+    "description": "The label for the doc item 蓝图Mixin in sidebar unreal, linking to the doc puerts/unreal/mixin"
+  },
+  "sidebar.unreal.doc.FAQ": {
+    "message": "FAQ",
+    "description": "The label for the doc item FAQ in sidebar unreal, linking to the doc puerts/unreal/faq"
+  }
+}

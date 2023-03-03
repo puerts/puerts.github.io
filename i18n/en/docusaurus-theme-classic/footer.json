@@ -1,0 +1,42 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "The label of footer link with label=Tutorial linking to /docs/puerts/unity/install"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/RYRY7D833n"
+  },
+  "link.item.label.QQ群": {
+    "message": "QQ群",
+    "description": "The label of footer link with label=QQ群 linking to https://jq.qq.com/?_wv=1027&k=wN8M6m8b"
+  },
+  "link.item.label.QQ群 (Unreal)": {
+    "message": "QQ群 (Unreal)",
+    "description": "The label of footer link with label=QQ群 (Unreal) linking to https://jq.qq.com/?_wv=1027&k=JnP3MPMN"
+  },
+  "link.item.label.知乎专栏": {
+    "message": "知乎专栏",
+    "description": "The label of footer link with label=知乎专栏 linking to https://www.zhihu.com/column/c_1355534112468402176"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/Tencent/puerts"
+  },
+  "copyright": {
+    "message": "Copyright © 2023 PuerTS. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}
