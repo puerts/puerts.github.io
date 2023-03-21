@@ -40,10 +40,10 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Il2cpp绑定(new)',
+      label: '性能表现',
       items: [
-        { label: '介绍与安装方法', type: 'doc', id: 'puerts/unity/il2cpp/readme' },
-        { label: '性能表现', type: 'doc', id: 'puerts/unity/il2cpp/performance' },
+        { label: '性能表现', type: 'doc', id: 'puerts/unity/performance/index' },
+        { label: 'Il2cpp绑定(new)', type: 'doc', id: 'puerts/unity/performance/il2cpp' },
       ]
     },
     { label: '来自社区的 PuerTS 扩展', type: 'doc', id: 'puerts/unity/other/community' },

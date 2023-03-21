@@ -15,8 +15,8 @@
     "message": "Advanced",
     "description": "The label for category 进阶指引 in sidebar unity"
   },
-  "sidebar.unity.category.Il2cpp绑定(new)": {
-    "message": "Il2cpp Binding(new)",
+  "sidebar.unity.category.性能表现": {
+    "message": "Performance",
     "description": "The label for category Il2cpp绑定(new) in sidebar unity"
   },
   "sidebar.unity.link.官方Demo": {
@@ -83,8 +83,8 @@
     "message": "Building Native Plugin",
     "description": "The label for the doc item 自行构建 in sidebar unity, linking to the doc puerts/unity/other/building"
   },
-  "sidebar.unity.doc.介绍与安装方法": {
-    "message": "Introduction",
+  "sidebar.unity.doc.Il2cpp绑定(new)": {
+    "message": "Il2cpp Binding(new)",
     "description": "The label for the doc item 介绍与安装方法 in sidebar unity, linking to the doc puerts/unity/il2cpp/readme"
   },
   "sidebar.unity.doc.性能表现": {
