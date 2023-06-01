@@ -13,8 +13,16 @@ const sidebars = {
         { label: 'Hello World', type: 'doc', id: 'puerts/unity/tutorial/runJS' },
         { label: 'JS 调用 C#指南', type: 'doc', id: 'puerts/unity/tutorial/js2cs' },
         { label: 'C# 调用 JS指南', type: 'doc', id: 'puerts/unity/tutorial/cs2js' },
-        { label: '模块加载', type: 'doc', id: 'puerts/unity/tutorial/module' },
-        { label: '使用Typescript', type: 'doc', id: 'puerts/unity/tutorial/typescript' },
+      ]
+    },
+    {
+      type: 'category',
+      label: '入门教程',
+      items: [
+        { label: '模块加载', type: 'doc', id: 'puerts/unity/knowjs/module' },
+        { label: '使用Typescript', type: 'doc', id: 'puerts/unity/knowjs/typescript' },
+        { label: 'JS 调试', type: 'doc', id: 'puerts/unity/knowjs/debugging' },
+        { label: 'WebGL 支持', type: 'doc', id: 'puerts/unity/knowjs/webgl' },
       ]
     },
     {
@@ -30,12 +38,12 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '进阶指引',
+      label: '其它指引',
       items: [
         { label: 'FAQ', type: 'doc', id: 'puerts/unity/faq' },
         { label: 'JS 调试', type: 'doc', id: 'puerts/unity/other/debugging' },
         { label: '其他 JS 后端', type: 'doc', id: 'puerts/unity/other/backend' },
-        { label: '自行构建', type: 'doc', id: 'puerts/unity/other/building' },
+        { label: '在DotNet项目中使用', type: 'doc', id: 'puerts/unity/other/dotnet' },
       ],
     },
     {
@@ -43,7 +51,7 @@ const sidebars = {
       label: '性能表现',
       items: [
         { label: '性能表现', type: 'doc', id: 'puerts/unity/performance/index' },
-        { label: 'Il2cpp绑定(new)', type: 'doc', id: 'puerts/unity/performance/il2cpp' },
+        { label: 'xIl2cpp模式(new)', type: 'doc', id: 'puerts/unity/performance/il2cpp' },
       ]
     },
     { label: '来自社区的 PuerTS 扩展', type: 'doc', id: 'puerts/unity/other/community' },
