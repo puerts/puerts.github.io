@@ -17,7 +17,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '了解JS生态',
+      label: '善用JS生态',
       items: [
         { label: '模块加载', type: 'doc', id: 'puerts/unity/knowjs/module' },
         { label: '使用Typescript', type: 'doc', id: 'puerts/unity/knowjs/typescript' },
