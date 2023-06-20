@@ -41,7 +41,7 @@ const sidebars = {
       label: '其它指引',
       items: [
         { label: 'FAQ', type: 'doc', id: 'puerts/unity/faq' },
-        { label: '其他 JS 后端', type: 'doc', id: 'puerts/unity/other/backend' },
+        { label: '版本升级指南', type: 'doc', id: 'puerts/unity/other/upgrade' },
         { label: '自行构建', type: 'doc', id: 'puerts/unity/other/building' },
         { label: '在DotNet项目中使用', type: 'doc', id: 'puerts/unity/other/dotnet' },
       ],

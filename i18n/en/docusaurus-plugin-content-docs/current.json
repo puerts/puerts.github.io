@@ -75,9 +75,9 @@
     "message": "JS Debugger",
     "description": "The label for the doc item JS 调试 in sidebar unity, linking to the doc puerts/unity/other/debugging"
   },
-  "sidebar.unity.doc.其他 JS 后端": {
-    "message": "Other JS Backend",
-    "description": "The label for the doc item 其他 JS 后端 in sidebar unity, linking to the doc puerts/unity/other/backend"
+  "sidebar.unity.doc.版本升级指南": {
+    "message": "Upgrade Guide",
+    "description": "The label for the doc item Upgrade Guide in sidebar unity, linking to the doc puerts/unity/other/backend"
   },
   "sidebar.unity.doc.自行构建": {
     "message": "Building Native Plugin",
