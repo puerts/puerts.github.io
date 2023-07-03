@@ -72,11 +72,7 @@ const sidebars = {
     { label: "继承引擎类", type: 'doc', id: 'puerts/unreal/uclass_extends' },
     { label: "蓝图Mixin", type: 'doc', id: 'puerts/unreal/mixin' },
     { label: "FAQ", type: 'doc', id: 'puerts/unreal/faq' },
-    {
-      type: "link",
-      href: "https://github.com/chexiongsheng/puerts_unreal_demo.git",
-      label: "官方Demo"
-    }
+    { label: "官方Demo", type: 'doc', id: 'puerts/unreal/demos' }
   ]
 
 };
