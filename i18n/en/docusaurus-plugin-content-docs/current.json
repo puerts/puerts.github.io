@@ -23,9 +23,9 @@
     "message": "Thinking in JS",
     "description": "The label for category 善用JS生态 in sidebar unity"
   },
-  "sidebar.unity.category.其他指引": {
+  "sidebar.unity.category.其它指引": {
     "message": "Other",
-    "description": "The label for category 其他指引 in sidebar unity"
+    "description": "The label for category 其它指引 in sidebar unity"
   },
   "sidebar.unity.link.官方Demo": {
     "message": "Official Demo",
