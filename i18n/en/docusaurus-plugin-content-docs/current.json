@@ -95,6 +95,22 @@
     "message": "Community",
     "description": "The label for the doc item 来自社区的 PuerTS 扩展 in sidebar unity, linking to the doc puerts/unity/other/community"
   },
+  "sidebar.unity.doc.善用JS生态": {
+    "message": "Thinking in JS",
+    "description": "The label for the doc item 善用JS生态 in sidebar unity, linking to the doc puerts/unity/other/community"
+  },
+  "sidebar.unity.doc.其他指引": {
+    "message": "Other",
+    "description": "The label for the doc item 其他指引 in sidebar unity, linking to the doc puerts/unity/other/community"
+  },
+  "sidebar.unity.doc.WebGL 支持": {
+    "message": "WebGL support",
+    "description": "The label for the doc item WebGL 支持 in sidebar unity, linking to the doc puerts/unity/other/community"
+  },
+  "sidebar.unity.doc.在DotNet项目中使用": {
+    "message": "Use in DotNet Project",
+    "description": "The label for the doc item 在DotNet项目中使用 in sidebar unity, linking to the doc puerts/unity/other/community"
+  },
   "sidebar.unreal.link.官方Demo": {
     "message": "官方Demo",
     "description": "The label for link 官方Demo in sidebar unreal, linking to https://github.com/chexiongsheng/puerts_unreal_demo.git"
