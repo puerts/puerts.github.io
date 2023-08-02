@@ -91,7 +91,7 @@
     "message": "Building Native Plugin",
     "description": "The label for the doc item 自行构建 in sidebar unity, linking to the doc puerts/unity/other/building"
   },
-  "sidebar.unity.doc.Il2cpp绑定(new)": {
+  "sidebar.unity.doc.xIl2cpp模式(new)": {
     "message": "Il2cpp Binding(new)",
     "description": "The label for the doc item 介绍与安装方法 in sidebar unity, linking to the doc puerts/unity/il2cpp/readme"
   },
