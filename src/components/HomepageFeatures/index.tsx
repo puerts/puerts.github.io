@@ -1,42 +1,43 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Translate from '@docusaurus/Translate';
 
 type FeatureItem = {
-  title: string;
+  title: JSX.Element;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '强大的生态',
+    title: (<Translate>强大的生态</Translate>),
     Svg: null,
     // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
-      <>
+      <Translate>
         引入Node.js以及JavaScript生态众多的库和工具链，结合专业商业引擎的渲染能力，快速打造游戏。
-      </>
+      </Translate>
     ),
   },
   {
-    title: '拥有静态检查的脚本',
+    title: (<Translate>拥有静态检查的脚本</Translate>),
     Svg: null,
     // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
-      <>
+      <Translate>
         相比游戏领域常用的lua脚本，TypeScript的静态类型检查有助于编写更健壮，可维护性更好的程序
-      </>
+      </Translate>
     ),
   },
   {
-    title: '高效/高性能',
+    title: (<Translate>高效/高性能</Translate>),
     Svg: null,
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
-      <>
-        支持反射Binding，无需额外（生成代码）步骤即可开发。也支持静态Binding，兼顾了高性能的场景。
-      </>
+      <Translate>
+        支持反射调用，无需额外步骤即可跨语言调用。也支持生成静态调用桥梁，兼顾了高性能的场景。
+      </Translate>
     ),
   },
 ];

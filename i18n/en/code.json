@@ -1,4 +1,22 @@
 {
+  "强大的生态": {
+    "message": "huge ecosystem"
+  },
+  "引入Node.js以及JavaScript生态众多的库和工具链，结合专业商业引擎的渲染能力，快速打造游戏。": {
+    "message": "combining Node.js and JavaScript ecosystem to game engines"
+  },
+  "拥有静态检查的脚本": {
+    "message": "static typecheck"
+  },
+  "相比游戏领域常用的lua脚本，TypeScript的静态类型检查有助于编写更健壮，可维护性更好的程序": {
+    "message": "In contrast to lua script, TypeScript supports static type checking, which significantly improves code robustness and maintainability."
+  },
+  "高效/高性能": {
+    "message": "High efficiency/performance"
+  },
+  "支持反射调用，无需额外步骤即可跨语言调用。也支持生成静态调用桥梁，兼顾了高性能的场景。": {
+    "message": "Supports reflection call throughout the host, interop with C++/C# easily. Also supports static wrapper generation - satisfy high performance demands"
+  }, 
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"

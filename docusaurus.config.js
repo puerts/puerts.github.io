@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'PuerTS（普洱TS）',
-  tagline: 'Write Typescript in Unreal/Unity',
+  title: 'PUER Typescript',
+  tagline: 'Write Typescript in Unreal/Unity/DotNet',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -68,10 +68,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [{name: 'keywords', content: 'PuerTS,puerts,PUER Typescript,Unity3D,Unreal,Typescript,Javascript,3D Game,2D Game'}],
       // Replace with your project's social card
       image: 'img/puerts_logo.png',
       navbar: {
-        title: 'PuerTS',
+        title: 'PUER Typescript',
         logo: {
           alt: 'PuerTS Logo',
           src: 'img/logo.png',
@@ -150,7 +151,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} PuerTS. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PuerTS(普洱TS). Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
