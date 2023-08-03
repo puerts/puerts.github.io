@@ -55,6 +55,7 @@ const sidebars = {
       ]
     },
     { label: '来自社区的 PuerTS 扩展', type: 'doc', id: 'puerts/unity/other/community' },
+    { label: '商业支持-普洱精品计划', type: 'doc', id: 'puerts/unity/other/commercial' },
     {
       type: "link",
       href: "https://github.com/chexiongsheng/puerts_unity_demo.git",

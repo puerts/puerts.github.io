@@ -111,6 +111,10 @@
     "message": "Use in DotNet Project",
     "description": "The label for the doc item 在DotNet项目中使用 in sidebar unity, linking to the doc puerts/unity/other/community"
   },
+  "sidebar.unity.doc.商业支持-普洱精品计划": {
+    "message": "Commercial use",
+    "description": "The label for the doc item 商业支持-普洱精品计划 in sidebar unity, linking to the doc puerts/unity/other/community"
+  },
   "sidebar.unreal.link.官方Demo": {
     "message": "官方Demo",
     "description": "The label for link 官方Demo in sidebar unreal, linking to https://github.com/chexiongsheng/puerts_unreal_demo.git"
