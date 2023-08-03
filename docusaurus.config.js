@@ -72,7 +72,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/puerts_logo.png',
       navbar: {
-        title: 'PUER Typescript',
+        title: 'PuerTS',
         logo: {
           alt: 'PuerTS Logo',
           src: 'img/logo.png',
