@@ -112,11 +112,12 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Powered By',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/puerts/unity/install',
+                html: `
+                    <img height="18" src="https://www.tencent.com/img/index/menu_logo.png"/>
+                  `,
               },
             ],
           },
