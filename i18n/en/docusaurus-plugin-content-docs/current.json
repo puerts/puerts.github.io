@@ -120,39 +120,43 @@
     "description": "The label for link 官方Demo in sidebar unreal, linking to https://github.com/chexiongsheng/puerts_unreal_demo.git"
   },
   "sidebar.unreal.doc.安装 PuerTS": {
-    "message": "安装 PuerTS",
+    "message": "Install PuerTS",
     "description": "The label for the doc item 安装 PuerTS in sidebar unreal, linking to the doc puerts/unreal/install"
   },
   "sidebar.unreal.doc.使用手册": {
-    "message": "使用手册",
+    "message": "User Manual",
     "description": "The label for the doc item 使用手册 in sidebar unreal, linking to the doc puerts/unreal/manual"
   },
   "sidebar.unreal.doc.调试指南": {
-    "message": "调试指南",
+    "message": "Debugging",
     "description": "The label for the doc item 调试指南 in sidebar unreal, linking to the doc puerts/unreal/vscode_debug"
   },
-  "sidebar.unreal.doc.TS和引擎的相互调用": {
-    "message": "TS和引擎的相互调用",
+  "sidebar.unreal.doc.脚本调用引擎API": {
+    "message": "Interacting With C++ From TypeScript",
     "description": "The label for the doc item TS和引擎的相互调用 in sidebar unreal, linking to the doc puerts/unreal/interact_with_uclass"
   },
   "sidebar.unreal.doc.基于模板的静态绑定": {
-    "message": "基于模板的静态绑定",
+    "message": "Template-Based Static Binding",
     "description": "The label for the doc item 基于模板的静态绑定 in sidebar unreal, linking to the doc puerts/unreal/template_binding"
   },
-  "sidebar.unreal.doc.扩展函数": {
-    "message": "扩展函数",
+  "sidebar.unreal.doc.引擎(或纯C++)调用脚本": {
+    "message": "Engine (or pure C++) calling TypeScript",
     "description": "The label for the doc item 扩展函数 in sidebar unreal, linking to the doc puerts/unreal/extension_methods"
   },
-  "sidebar.unreal.doc.继承引擎类": {
-    "message": "继承引擎类",
+  "sidebar.unreal.doc.继承引擎类功能": {
+    "message": "Automatic Binding Mode",
     "description": "The label for the doc item 继承引擎类 in sidebar unreal, linking to the doc puerts/unreal/uclass_extends"
   },
   "sidebar.unreal.doc.蓝图Mixin": {
-    "message": "蓝图Mixin",
+    "message": "Blueprint Mixin",
     "description": "The label for the doc item 蓝图Mixin in sidebar unreal, linking to the doc puerts/unreal/mixin"
   },
   "sidebar.unreal.doc.FAQ": {
     "message": "FAQ",
     "description": "The label for the doc item FAQ in sidebar unreal, linking to the doc puerts/unreal/faq"
+  },
+  "sidebar.unreal.doc.官方Demo": {
+    "message": "Official Puerts Demos?",
+    "description": "The label for the doc item Official Puerts Demos? in sidebar unreal, linking to the doc puerts/unreal/demos"
   }
 }
