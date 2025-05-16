@@ -72,10 +72,7 @@ const sidebars = {
     { label: "继承引擎类", type: 'doc', id: 'puerts/unreal/uclass_extends' },
     { label: "蓝图Mixin", type: 'doc', id: 'puerts/unreal/mixin' },
     { label: "FAQ", type: 'doc', id: 'puerts/unreal/faq' },
-    { label: "官方Demo", type: 'doc', id: 'puerts/unreal/demos' },
-    { label: "设置开发环境", type: 'doc', id: 'puerts/unreal/dev_environment' },
-    { label: "入门", type: 'doc', id: 'puerts/unreal/getting_started' },
-    { label: "启动新虚拟机", type: 'doc', id: 'puerts/unreal/start_a_virtual_machine' }
+    { label: "官方Demo", type: 'doc', id: 'puerts/unreal/demos' }
   ]
 
 };
