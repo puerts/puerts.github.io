@@ -10,9 +10,34 @@ const sidebars = {
       label: '入门教程',
       items: [
         { label: '安装 PuerTS', type: 'doc', id: 'puerts/unity/install' },
-        { label: 'Hello World', type: 'doc', id: 'puerts/unity/tutorial/runJS' },
-        { label: 'JS 调用 C#指南', type: 'doc', id: 'puerts/unity/tutorial/js2cs' },
-        { label: 'C# 调用 JS指南', type: 'doc', id: 'puerts/unity/tutorial/cs2js' },
+        {
+          type: 'category',
+          label: 'JavaScript / TypeScript',
+          items: [
+            { label: 'Hello World (JS)', type: 'doc', id: 'puerts/unity/tutorial/runJS' },
+            { label: 'JS 调用 C# 指南', type: 'doc', id: 'puerts/unity/tutorial/js2cs' },
+            { label: 'C# 调用 JS 指南', type: 'doc', id: 'puerts/unity/tutorial/cs2js' },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Lua',
+          items: [
+            { label: 'Hello World (Lua)', type: 'doc', id: 'puerts/unity/tutorial/runLua' },
+            { label: 'Lua 调用 C# 指南', type: 'doc', id: 'puerts/unity/tutorial/lua2cs' },
+            { label: 'C# 调用 Lua 指南', type: 'doc', id: 'puerts/unity/tutorial/cs2lua' },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Python',
+          items: [
+            { label: 'Hello World (Python)', type: 'doc', id: 'puerts/unity/tutorial/runPython' },
+            { label: 'Python 调用 C# 指南', type: 'doc', id: 'puerts/unity/tutorial/python2cs' },
+            { label: 'C# 调用 Python 指南', type: 'doc', id: 'puerts/unity/tutorial/cs2python' },
+          ],
+        },
+        { label: '多语言特性对比', type: 'doc', id: 'puerts/unity/tutorial/lang-comparison' },
       ]
     },
     {

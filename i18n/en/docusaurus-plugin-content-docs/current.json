@@ -35,17 +35,57 @@
     "message": "install PuerTS",
     "description": "The label for the doc item 安装 PuerTS in sidebar unity, linking to the doc puerts/unity/install"
   },
-  "sidebar.unity.doc.Hello World": {
-    "message": "Hello World",
-    "description": "The label for the doc item Hello World in sidebar unity, linking to the doc puerts/unity/tutorial/runJS"
+  "sidebar.unity.category.JavaScript / TypeScript": {
+    "message": "JavaScript / TypeScript",
+    "description": "The label for category JavaScript / TypeScript in sidebar unity"
   },
-  "sidebar.unity.doc.JS 调用 C#指南": {
-    "message": "invoking C# in JS",
-    "description": "The label for the doc item JS 调用 C#指南 in sidebar unity, linking to the doc puerts/unity/tutorial/js2cs"
+  "sidebar.unity.category.Lua": {
+    "message": "Lua",
+    "description": "The label for category Lua in sidebar unity"
   },
-  "sidebar.unity.doc.C# 调用 JS指南": {
-    "message": "invoking JS in C#",
-    "description": "The label for the doc item C# 调用 JS指南 in sidebar unity, linking to the doc puerts/unity/tutorial/cs2js"
+  "sidebar.unity.category.Python": {
+    "message": "Python",
+    "description": "The label for category Python in sidebar unity"
+  },
+  "sidebar.unity.doc.Hello World (JS)": {
+    "message": "Hello World (JS)",
+    "description": "The label for the doc item Hello World (JS) in sidebar unity, linking to the doc puerts/unity/tutorial/runJS"
+  },
+  "sidebar.unity.doc.JS 调用 C# 指南": {
+    "message": "Invoking C# in JS",
+    "description": "The label for the doc item JS 调用 C# 指南 in sidebar unity, linking to the doc puerts/unity/tutorial/js2cs"
+  },
+  "sidebar.unity.doc.C# 调用 JS 指南": {
+    "message": "Invoking JS in C#",
+    "description": "The label for the doc item C# 调用 JS 指南 in sidebar unity, linking to the doc puerts/unity/tutorial/cs2js"
+  },
+  "sidebar.unity.doc.Hello World (Lua)": {
+    "message": "Hello World (Lua)",
+    "description": "The label for the doc item Hello World (Lua) in sidebar unity, linking to the doc puerts/unity/tutorial/runLua"
+  },
+  "sidebar.unity.doc.Lua 调用 C# 指南": {
+    "message": "Invoking C# in Lua",
+    "description": "The label for the doc item Lua 调用 C# 指南 in sidebar unity, linking to the doc puerts/unity/tutorial/lua2cs"
+  },
+  "sidebar.unity.doc.C# 调用 Lua 指南": {
+    "message": "Invoking Lua in C#",
+    "description": "The label for the doc item C# 调用 Lua 指南 in sidebar unity, linking to the doc puerts/unity/tutorial/cs2lua"
+  },
+  "sidebar.unity.doc.Hello World (Python)": {
+    "message": "Hello World (Python)",
+    "description": "The label for the doc item Hello World (Python) in sidebar unity, linking to the doc puerts/unity/tutorial/runPython"
+  },
+  "sidebar.unity.doc.Python 调用 C# 指南": {
+    "message": "Invoking C# in Python",
+    "description": "The label for the doc item Python 调用 C# 指南 in sidebar unity, linking to the doc puerts/unity/tutorial/python2cs"
+  },
+  "sidebar.unity.doc.C# 调用 Python 指南": {
+    "message": "Invoking Python in C#",
+    "description": "The label for the doc item C# 调用 Python 指南 in sidebar unity, linking to the doc puerts/unity/tutorial/cs2python"
+  },
+  "sidebar.unity.doc.多语言特性对比": {
+    "message": "Multi-Language Comparison",
+    "description": "The label for the doc item 多语言特性对比 in sidebar unity, linking to the doc puerts/unity/tutorial/lang-comparison"
   },
   "sidebar.unity.doc.模块加载": {
     "message": "Module",
