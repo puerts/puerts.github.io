@@ -42,8 +42,8 @@ const sidebars = {
           type: 'category',
           label: 'AI',
           items: [
-            { label: 'MCP Server', type: 'doc', id: 'puerts/unity/tutorial/mcp-server' },
-            { label: 'Agent 开发指南', type: 'doc', id: 'puerts/unity/tutorial/agent-development-guide' },
+            { label: 'Unity编辑器助手', type: 'doc', id: 'puerts/unity/tutorial/unity-editor-assistant' },
+            { label: 'Agent开发指南', type: 'doc', id: 'puerts/unity/tutorial/agent-development-guide' },
           ],
         },
       ]

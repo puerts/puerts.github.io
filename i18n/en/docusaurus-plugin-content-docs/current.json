@@ -155,11 +155,11 @@
     "message": "AI",
     "description": "The label for category AI in sidebar unity"
   },
-  "sidebar.unity.doc.MCP Server": {
-    "message": "MCP Server",
-    "description": "The label for the doc item MCP Server in sidebar unity, linking to the doc puerts/unity/tutorial/mcp-server"
+  "sidebar.unity.doc.Unity编辑器助手": {
+    "message": "Unity Editor Assistant",
+    "description": "The label for the doc item MCP Server in sidebar unity, linking to the doc puerts/unity/tutorial/unity-editor-assistant"
   },
-  "sidebar.unity.doc.Agent 开发指南": {
+  "sidebar.unity.doc.Agent开发指南": {
     "message": "Agent Development Guide",
     "description": "The label for the doc item Agent 开发指南 in sidebar unity, linking to the doc puerts/unity/tutorial/agent-development-guide"
   },
